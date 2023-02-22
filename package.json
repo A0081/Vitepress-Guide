@@ -1,0 +1,17 @@
+{
+  "name": "Vitepress-Guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": "git@github.com:A0081/Vitepress-Guide.git",
+  "author": "_0081 <S_0081@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.47",
+    "vue": "^3.2.47"
+  }
+}

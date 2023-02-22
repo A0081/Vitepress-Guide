@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add -D vitepress vue
+
+PATH: 
+  /home/_0081/.bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.6.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: aborted
+      at connResetException (node:internal/errors:717:14)
+      at TLSSocket.socketCloseListener (node:_http_client:456:19)
+      at TLSSocket.emit (node:events:524:35)
+      at node:net:316:12
+      at Socket.done (node:_tls_wrap:588:7)
+      at Object.onceWrapper (node:events:627:26)
+      at Socket.emit (node:events:512:28)
+      at TCP.<anonymous> (node:net:316:12)
+
+npm manifest: 
+  {
+    "name": "Vitepress-Guide",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:A0081/Vitepress-Guide.git",
+    "author": "_0081 <S_0081@163.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
